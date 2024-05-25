@@ -31,10 +31,10 @@ def quadrado(a):
 def cubo(a):
     return a ** 3
 
-def main()
+def main():
     print('Bem vindos à Calculadora!')
-    numero_1 = float('Digite o primeiro valor: ')
-    numero_2 = float('Digite o segundo valor: ')
+    numero_1 = float(input('Digite o primeiro valor: '))
+    numero_2 = float(input('Digite o segundo valor: '))
 
     print('\nEscolha a operação: ')
     print('1 - Soma')
@@ -88,3 +88,9 @@ def main()
 
     elif opcao == 0:
         print('Saindo...')
+    
+    else:
+        print('Opção inválida: Por favor, escolha uma opção válida. (0 à 9)')
+
+if __name__ == '__main__':
+    main()
