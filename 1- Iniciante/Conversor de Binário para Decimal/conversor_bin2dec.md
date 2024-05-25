@@ -1,4 +1,4 @@
-# Nível: 1-Iniciante
+# Nível: 1 - Iniciante
 
 Binário é o sistema numérico no qual todos os computadores digitais são baseados. Portanto, é importante que os desenvolvedores entendam matemática binária, ou base 2. O objetivo do ConversorBin2Dec é fornecer prática e compreensão de como cálculos binários.
 
